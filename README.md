@@ -11,7 +11,7 @@ Make sure following software is installed on your PC
 ## Project structure
 ```
 .
-├── hello-world
+├── composite-pattern
 │   ├── pom.xml
 │   ...
 ├── pom.xml
@@ -23,13 +23,7 @@ Make sure following software is installed on your PC
 
 ```shell
 $ ./mvnw clean package
-$ java -jar ./hello-world/target/hello-world-0.0.1-SNAPSHOT.jar
-```
-
-```shell
-Compare str1==str2: true
-Compare str3==str4: false
-Compare value str1.equals(str3): true
+$ java -jar ./composite-pattern/target/composite-pattern-0.0.1-SNAPSHOT.jar
 ```
 
 ## Contribute
