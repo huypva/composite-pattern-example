@@ -1,4 +1,4 @@
-The hello-world project
+The example project of composite pattern
 
 <div align="center">
     <img src="./assets/images/hello_world.png"/>
@@ -23,7 +23,16 @@ Make sure following software is installed on your PC
 
 ```shell
 $ ./mvnw clean package
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.051 s
+[INFO] Finished at: 2023-05-17T09:02:25+07:00
+[INFO] ------------------------------------------------------------------------
 $ java -jar ./composite-pattern/target/composite-pattern-0.0.1-SNAPSHOT.jar
+09:01:58.097 [main] INFO io.github.huypva.compositepattern.Composite -- Composite 1 operate!
+09:01:58.099 [main] INFO io.github.huypva.compositepattern.Leaf -- Leaf 1 operate!
+09:01:58.099 [main] INFO io.github.huypva.compositepattern.Composite -- Composite 2 operate!
+09:01:58.099 [main] INFO io.github.huypva.compositepattern.Leaf -- Leaf 2 operate!
 ```
 
 ## Contribute
