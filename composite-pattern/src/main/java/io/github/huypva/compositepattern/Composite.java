@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 public class Composite implements Component {
 
     String name;
-    List<Component> components = new ArrayList<>();
+    List<Component> children = new ArrayList<>();
 
     public Composite(String name) {
         this.name = name;
@@ -21,19 +21,19 @@ public class Composite implements Component {
     @Override
     public void operate() {
         log.info("Composite {} operate!", name);
-        components.stream().forEach(component -> component.operate());
+        children.stream().forEach(component -> component.operate());
     }
 
     public void add(Component child) {
-        components.add(child);
+        children.add(child);
     }
 
     public void remove(Component child) {
-        components.remove(child);
+        children.remove(child);
     }
 
-    public List<Component> get() {
-        return components;
+    public List<Component> getChildren() {
+        return children;
     }
     
 }
