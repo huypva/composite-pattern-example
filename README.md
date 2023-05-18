@@ -1,7 +1,7 @@
 The example project of composite pattern
 
 <div align="center">
-    <img src="./assets/images/hello_world.png"/>
+    <img src="./assets/images/composite.png"/>
 </div>
 
 ## Prerequisites
